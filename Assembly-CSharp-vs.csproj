@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F69338CD-EC0C-400A-8204-30A98E0E7C2D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_0;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;UNITY_IPHONE;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;UNITY_IPHONE_API;UNITY_IOS;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AmplifyColor\Plugins\AmplifyColorBase.cs" />
+     <Compile Include="Assets\AmplifyColor\Plugins\AmplifyColorEffect.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Tools\Birds Swarm\Bird.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Tools\Birds Swarm\Swarm.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Tools\Birds Swarm\SwarmCenter.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Tools\CameraBehaviors.cs" />
+     <Compile Include="Assets\Cartoon Town and Farm\Tools\ScrollingUVs.cs" />
+     <Compile Include="Assets\Endless Run\Scripts\Title\AlphaText.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\AudioManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\CoinGUICollection.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\DataManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\GUIClickEventReceiver.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\GUIManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\GameManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\InputController.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\MissionManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\PowerUpManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\SocialManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Game\StaticData.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\AppearanceProbability.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\AppearanceRules.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\CollidableAppearanceRules.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\InfiniteObjectGenerator.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\InfiniteObjectHistory.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\InfiniteObjectManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\InfiniteObjectPersistence.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\PlatformAppearanceRules.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\PowerUpAppearanceRules.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\SceneAppearanceRules.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteGenerator\SectionSelection.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\CoinObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\CollidableObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\InfiniteObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\MovingObstacleObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\MovingObstacleTrigger.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\ObstacleObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\PlatformObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\PowerUpObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteObjects\SceneObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\InfiniteRunnerStarterPackUtility.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\CameraController.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\ChaseController.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\CoinMagnetTrigger.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\DeathTrigger.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\JumpTrigger.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\PlayerAnimation.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\ProjectileManager.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\ProjectileObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\TurnTrigger.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\Player\TutorialTrigger.cs" />
+     <Compile Include="Assets\Infinite Runner\Scripts\RandomSceneObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButton.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonPlayAnimation.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonSound.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIButtonTween.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UICheckbox.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UICheckboxControlledComponent.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UICheckboxControlledObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UISlider.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UISliderColors.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\Tweening\UITweener.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIFilledSprite.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIInputSaved.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIPanel.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UISlicedSprite.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIStretch.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UITiledSprite.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\Infinite Runner\Third Party\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\TexturePacker\Plugins\MiniJSON.cs" />
+     <Compile Include="Assets\TexturePacker\Plugins\TexturePacker.cs" />
+     <Compile Include="Assets\buildingexport\Scripts\QT_DistanceDropout.cs" />
+     <Compile Include="Assets\buildingexport\Scripts\QT_SkyBox.cs" />
+     <Compile Include="Assets\buildingexport\Scripts\QT_TrafficLight.cs" />
+     <Compile Include="Assets\buildingexport\Scripts\QT_TrafficLightController.cs" />
+     <Compile Include="Assets\buildingexport\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="NGUI">
+ <HintPath>E:/EL-4/OLD/2/APPS/07072014/mok final/newversion/Assets/Infinite Runner/Third Party/NGUI/DLLs/NGUI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
